@@ -38,6 +38,7 @@ public class AccountCreationPageTest extends BaseClass {
 		acountCreationPage=loginPage.createNewAccount(email);
 		boolean result=acountCreationPage.validateAcountCreatePage();
 		Assert.assertTrue(result);
+		
 		Log.endTestCase("verifyCreateAccountPageTest");
 	}
 	
